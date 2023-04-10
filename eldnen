@@ -1,0 +1,348 @@
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function kgPOAMkHydYqQxRK(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+repeat
+    task.wait()
+until game.Players.LocalPlayer.Character~=nil;
+local a=tostring(game.Players.LocalPlayer.Character);
+if a==kgPOAMkHydYqQxRK('LfUMysBgCuhhFimGIgCooknWsGnbmZwdmQytIMuYmQAUWNgbtpihAcRdGFuZ21laUxPTkc=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ZeZkaHVynCwraHGbIMKceWeYDuczLBPzMHCntMiohQdpJWbQRMthXWudGFuZ21lbmppYW5n')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('MBVCLltIJaVnpbBnMhNfQSMyROEheTPAklskBaDsZuWjxckCojPyhLdempoeXlkc3l5ZHNz')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('RLuHLHnFJsyvIqGQzkMuoZpujKrgIBIzzuZUDSATGvGhHpprIseFSLrVGltZWlzQUs0Nw==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('SZJrcYqJGXifVZWlVShIPnqvVFepmPFIDHKmLhTWlzwaxqqCUmScWnNd2lqZW5zbWFsbGE=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('WHVDlrJOabsiXknSxRQlixQvkDHkWnaXmptrJcIhuUFMptyUdZnHzbncXdxd2NiaA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('XasQZEqNWgoFPhvDPyCNpkUIIXyjEGIWYzVwMNyxXgLoVDJYTSYlmdZa2Fva2FvMTE0Njc0')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('FpxjiPQpfPXPTMwuAFwYUNjkDxkvGMYzkAGoJNtumnQOztmZtWeIoFteWFuZ3dhbmZlbmc=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('PhUnHDpiGLalUsAntdyLViKGQnEizwxGwjohMunUNjbeBAReymXihPpeG14X1hpZQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('FgwIMtGnouFmBihZNwqjlToNxPhVWiosDdpWsLmpSfCcwPyRlRUsyUKQUJjZGhxcDk=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('yFbCPwSZenzTskGFGtkhAhajaoaDlREyVTuLfFluhBKaRxFkVgJrHsxd29zaGlob25naGFvd2Vu')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ErVXzOomEUlNLAMFLUleusQjPeUyMFMuocYFjmrrHSIoUvzmYHkTRXzZGpiZDU0MDE=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('pCymchSsVJkwDioXfCbxcBKMbnpfrFmVdBEaDbemdpsuROrvQnKPDqlanRtX2t1bg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('omBALlVVsvMazFWmGyqymTPoGlEgUEXgreGOiHmjagTUdKCtFpSmpQRMjk3MjBs')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('wWKVRUNBoLWcJCSpJppqUQDewfMsFTGQXtmbWjuCCIVntlaHgOvEiDXRTExMTM1NTg4NzQyMzQ=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('rnVkOlXgZsXNIiaYMYmDGujraKJzXAfITDpQEwmkSNPtadIvrVppikRZWtrZW5zc25zaQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('clNtbPmtHABZaOIHyexvbQTnNVKThqiDTJYXZKxspsOcBbdaAOTrZiHWWFvbWl0aXNz')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('iyjwluRsohnxXswbfwHonIxfrKFHeHdvqGdpEUeOvDvjlMdwgZNHDRNZmZqZmpjamlk')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('cRLhFHZuNuYNRwFIcpNDFYAwqZpNCPuCwJFTNTZPdXBkNSOPALMbEddSllINjY2UVdFUg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('zeOijgQXIGycQxHXmgMEzXslUUOREUubIXfgIhcdJIsVdvCQaEwApvhVE5ORExPTA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('vASZAdbdzZQItigXKbCScWipABnORcLQfUvabnHJJIpwLCaXEvpxJtuTWFpX0tleXl5')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ndtUzWRFRsiJTsmErakmUdxBBxRjMzphPNrHVsRBCmMxhgANBzYguceeGluaGFveGlhbjM=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('rjNtfsdqrAebzBFVHGHfeUTgjUpybpqpcHTvWkxwnYPhvzsqmkJeMrNc21hbGxkb2dqaWE=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('oElAjfeMjICdKKxtpdfxMbNWcwwGQgbVvPefRrZZYMnBOmtMZiHwkMVZ2N2eWZnMQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('BUHmpubfAgxyvXhUTixQjDDjYwZBZFLGxiGKyQlummTZdeiKFpskBGEcGVuZGFudHVjYW4=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('wFxhcEQSgbFyKERqXINWNWklmiJrNSVmXaUqoyHOaFilhFjNEphMTsXd29pa2hnMTk3')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('RgNrZMKBJixFaVErFDdOjkEMXmtVZDwVHEqkjiCYaCQuNlOjIZzKxyCdHVpZHVnY3NlZQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('yVpqCTjPoErJBIabPtkHxuXfMFLUZYmEvQwNUwerPZHXTZFlhBnfNzUTWRqc2pkamRqaWVqZGpk')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('aRPPftlGwYumGoAUvibdnqwZQFQSFyKHTgupdfshGQUSJDqjogTYqasenpjMTJfenpj')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('KvRldifmVcLkafsDwaVMJnaDuWUVSiXRRrzumZacwHBiWcKTZOeWLXybzBPWWVPMG8=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('GiruGpZzePVvxDiETnnOOhgHYgKNpsGyakzZzySmUsjvveceyPDNXsUZ2d0dGpzaHMx')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('IUdfPFinzJZGOssDkEhoLjGWAcgaInitgkhNrUMnJfmvyORpOycSzcYd3VhdXFoaGF1')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ncyQDeSLcnSDHdqkydOdEuJHQjTnytFMZeezuihYFvfRNVccuFamXZudXNoZWJpaGU=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('SuOMLCdIeZrKqhpaXnkMeAxDwBnYvwXWZDSiOkoOZaXDahKHpdZeloXcXFydHFyYQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ilDJXcWQmcZLTkBVkIMYujwREwOrMpBeiujMPmEaITrKtlyIVrzqFwWd3d3d2xsbGxsSQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('HJpNFcNdlHwOjtWkRaYubUIovocmkYznlvzAicAYyuIPTOocesqTRSabGFrc2pkaGZnMjU4NjQ=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('TFRGVSRmZOhEfWfrvvCAzgStxbSPAMAsFihYbmHHRgTKUldfwHFTRazMTIzNTc4OXF3')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('AIkCLogBMdNZjzWOmkYvdeTjohQqeQlMfVfJFYmrjRJKcPUMNlIhhqrc3l1d2dqcw==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('yfzNwdITDJBmGonulRWGAbeqGFEXtdXUBansxEGPcWjOUUASYlzDiHWc2RqeGhneA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('TtTbkmwrarmkAZgoHINPthKoUpTAmQORSbftzabqyTAGmnIwPcoOjJGV0FLRVBBWQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ACAWVQemgfrwrmbjuRgzjOkrHhtxEJjBtJuDXBEbnxPSGTqauwiJvAsV2lobjQzNTk=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('uvLHjLNBdBhxuDpnowZiQvEQtZRvzHrZGUUsWSfIbLlbNYDRSiRAUCQcWluaGFvZmVu')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('fGtLyuUywiFXujxEYxfLgzbFLKehtaEatcamXegIycCjSLBiXFTeMpiYWt6anNkcHA=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('SkOgKUCBEuhSCxjsSQamXTIAbEtzbsLSQeIzfqAUayeHmxXEoVebkQQaGhuZ2xh')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('FCZwLejYnVUqClLkQxgpWTykVVJUtYTYQNvQuYgdQEfmiNOtxNeAnrvZmVuZ3l1ZXNoaXNi')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('iOJAQxzIBaZIGjJXqyCIQYPOClYYFTWCZahbaSuSpaTtsGeVTDkoSJhemhlbm5pbWFyZWFs')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('caUjSaqilZoVrbKuPRnCVHMWmlUYqXiXpjZqdpZxclMujdbJhpJoKswd2Nta21r')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('pFUfTlzWEXKsrEzKwOvSVNpzkkbnGxujQBCgaxvjmZpsOuHXfiYuxYedHJkMTQ3MjU4')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('UShnSPXJiMfiFzKEhewugaOuMzxNELiFdxQMubeFhVAoaaTghmAvTOAc3VlaGphanNq')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('DGQTScCPPHtdfIBTDAXtrzhMFWPclXWlUyTOufxRzcALMfdNqfQKLSmZHdrZWt4ajE2MTg2')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('RXvAbQeNHaFbCHXDgVxMVDmnhoSBCznNNvtWNDfwIBCZcWHtrdslbXgbHl4aWxvdmU=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('UrKDFIqqvMNaDXYxDyHXLwcFJkexIKiTmjIrDbpLlHXkMUdzVKBCkrsTk9PQl9BTkdib3c=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('KRDMBSANcsmzAqcUpxvyyVZNzMBizrNHEPqnTzbqlAeiOlmsOWhtqHIcWFzdW9pZDE=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('bbcbqVnxPjKcHYlpiaVlxcCVnJdENRZSGXUvbzSUOVOimhacGMHQQksaGF3anNqc2ZyaXJp')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('iIHuqBWPfXoGYuaVbVeoOeOLqFROCtXXSdaNwBnDrDrFpuneUTZGZQPZ2hyZ2ZmZmQ=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('XLeTfMwYqBbFXgYqAxBmvyOFQgnigwNFrXAniORMyKtFommpOpfMGKCU3Vyb3J4cA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ZmjVGiYipCsWlhGoGPzAAKXiZWYwgdsYmiLFBSIBHEbDWdkHjdEdzircHlhaHdoaA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('fsZckQAXtlcRVtBOBukyXOgWJdVETgfjjISWMFEaDuxODQiOMIsLtpcZ29oOTYz')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('HsyKjQIJUIDlpzaSDLYDQLWYsoNprSbzIbgwKveMNYtEFIAVBmNJCidOF81MTEy')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('GlLOrBotGmGFURvSFJphxoRcKZIqabkhEArrzXMTYHMKPmqxyEjHIkvc2JubWJfMTEyMA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('xBMlWZzPrAPmOrxWSJqWKatXoxYYQaTQuDlFTnquWiBdBOBSeHaqVVwc2hzanNrZWps')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('dEVXckMUnlGpZWHMJVnmRAbYtSTWYUcTxiKwDluSYYCyppIsNlbvzTfYWJfbGFveWU=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('xsujZsaYyVQvyMZsydXvyFbGekHRNBrqphKfGWGLlTGeDmNUCFwPwFNUU5RRHdubQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('KPOuwiGwpbvUiQDfUZfhxCAPcnqkqLEPiEbWzHYnLKllNrcyMjTRXAcZ2poZnRoaGhnNDg=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('bjmIsfMkJDEeuyiwUFOOGMEinNHWZScEAuXoGvVdCMWgxWuczBQcbQXT29zaXNrc3M=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('OCGRqWcucZAuBxFfcFLbkGjXMSrstkfYwKGLaMQAFVYImdkHfYNUPwxa3N6ZW1vcmVu')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('mTdwxoHVtNGFwbfEcoNJxtSZLEQUADNfZplzyTvAhhDObEbaxJqaetIa29uZ2RvZ2E=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('vsXhyUzsWJetVKUvPjBaVINFKAAqbGPXgwnMRgUHdhVZGccRKoTPMfTMTIzNjU0YWJjZg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ZNLjUpgIfjyADiEUpDeyYsxMCtmnmYehQzCPridrkjGXpLhNNjaHsHabGlhZ3Bpemhpc2I=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('cDwdiIYeufWIJqIALedBoIAESFRpTcEthGjZrSSrZTxRuMzGttLvJViMTg4NDg0bGVsZQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('vYlBGFTKFxmlHPoZBFbzpRuWoUSZlIwMqfkUxmXlMDKwtSYhrlobxTFenlzc2xzbA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('XVLfYGEyGRAichGbbnidVOYolNBDJXTKPOkKzbhzLBRKbnePYlOcaAoc29qeGllNjY2')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('bxDIKkykQcLXHQVJDiACONRdZGWtZoagiTZVMRUuiKmHdfRBJDHjfnBS1NYdUhhbA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('sPkHNHdQmMCAaxLkelyHbuhMAKgMpDoqqScirBtJfpersLnBOOhclUeZHVqdjEyODc=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('zUeEtaGfWXAeTLMrYUetflTbRMJJAyAsILSCsUQKVyWMtSzjExXDfLRemhvZ25rb25n')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('vyDBJNfrBRsfDpSsahZhQNdUcSYYxipLPXuPLkoStEwlCJUsTfLvVSFcWl4dW43Nw==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('aZAVTcpoeclOMisnAcTESblxaqSSnAxvXvwfejoKTUmfzTuZcbfUyVPdGdoZGJkaGNlbnM=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('MevZOgfFpzbsQIapniJmlNAURQpchsoPkUKdXZWHFcJSIRsRCgzSWyFcXdlcnR5eXdhbg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('VenvPRDogbYaLhxwnNFhYdAuutJBsycXYCSyhOtweHzOKvBXoadJlLoQVVWUE8xMTQ1')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('HfRJaHIVSerSqwngCeViFReBBhosPRukYJwWByIJDaBNwYxPHpoOJuOaXh1ZGhldXVz')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('qWCUGwCxnPUauqbYvsFLlMmlLhdkKrfUZCMjqLOkfHCCICsgAGgnKdKMTAxMjMxeHhq')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('PmOJrZchqgGcfxACwdkkRxcxYhhYJCPRgaGbbMiwIjLozsfVHPeShzoQmx1ZXdpdGNobWU=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('TpUmgJwewsgdYCpzZUseQAdCCHexYyOGncfkpnQDGMikRhbLCDPxdEaaWt1blZjb3Nlcg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('tqqeTCYOolWGMjIKQdRRpMPPOUobTvvtzUtFyOzQmXPTxkinBrYCXwANTUyMXp6')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('UgyXOjUBuIAcXsSXtjgFrAnCTNJFfPtybNcTisryfkcWsRltFbPwIiZam9qb2hoZW4=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('BNnfkMzcapRaidnInrxGZOMFZWalfVIGKVHLKINBtULUQFJymdBOyokZnF6X3l5ZHM=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('uTvfzRYhrxFXTvkUCfDUkiwzETgcRiTIwHlPnFGqnwMvbTvqwUWUTGRenhjdmJnYWdzMTIz')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('cngkryKDbYXmFYlefDHXwHaggAxOIldWSRXRUvCjORCRBqkoRZVjTIbZnVuY3Rpb24xMjMz')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('UQpwBNySyMtvvPXUKifxURnNlPVqezgAntKxDSJZpEQEOaWvmAIoVNBQW9kTW9uMTE0NTE0')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('sSCiOzywkkGoHvpGvTVQYooyFsYlXBdHJMYTMGJlSyJIJpaHwJcdLlmMTIzYmhiZWQ=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('JybuFnjrsTjAWicBoXbuBXxAzelFJPGCMLxEkHUhgDHhEHlfeNEiuErZHB6X2tscA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('RmnzCdIqTBOnfWwxdxaTgrtyBaDhdTnfFMOrGPkpanmBpyMaVblCnNtd3NpYmJwbw==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('iKDyRqxqRwwJyerMoPAqdCoFCZJYXRbqaLzYkHUbWqyUgyNoWHsYwFfQ2hpbmFfMTE0NTE0aWt1bmg=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('vAOJtYZsHLvkpwOEKsJaaoVwGpBbJkGLrDXbyvytQEFvCKcsIHwvqyVYmFpY2FpYWFh')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('NYfDxvJQJYlxhXRFxJQXnKkzaNlfqJdblBYnZNAzgsyURLUwCtBldWreXN4aXhpeGl4aQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('AaQckGIjSCALULPgQcqhgQBLLeNkXHeJoBCqbcWFzfOwPRGvoEMIbSGMTU5MzU3MjU2Z2g=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('mnoMhWXoqyvbGewbuKHAfcPKFQaaYxcCLrfeJMwbIIFWOPLIlBhiXjZY25tc2JzbW0=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('JDmZsgbwZtivyqZhyEGKCybUkDxzGqTywNMEhqdmUEKqGvVxYPWFKhFanNjYmpkYmZuZA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('LhZkqzjaGUHwDtKXImrHjbmSZOyDXXGzhfZWFgAJtYwxzMwbhuklaxFd3Rpa3h0bg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('qfonQPRKMStjwHsTTBskCaEwXIvDhFpDgYdzAeWSIfzrowtqqewJRQEQ05fYmlsYmlsbWVuZw==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('fgTbmLqnisZiihvPjNsLvzCKDTmFkIwSkfDatXouZVrvHyxCWRDgdxYZ2ZmaDE0Nw==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('OvNZLFAMlquHCkmWvVyjuffffEJQuzwpkThAdYgYmvCHbPlkXjOMWSwZGhqc2p3MTI4')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('PLyCJuvpbifdPyveckwWzLgJUYIUeqScfcAznJzcyVPQssFXUskvXAFdGdqamhoampodg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('AGnNwrqdWiXDpZmFhFGbQDTylRYYVZgZbsOZcWbKjylKMWQwYGguevaZGZnNTgzNg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('yVXWJbZxlHMwBsTsrjYmyalLklSTljUfILlTfJuMCCDOzpEpuRUjaGQdnZneGVm')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('qEMJwldGMVcrQpfbcDLFRDGZDXUqriaiwURWPfraCqDaVbhyEEnDnIjMTIzaHdjZ20=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('LeCoUuNCRmsvKGrAXasDaQXHZWWhUIUIOIdOzwLCFtjyugdpPnuwzOEcm9ibG94X2NubWIxMTQ1MTQ=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('oLHnaIckXmRnmSjIAZFeMfEKosmnWAhHxelftquAAwQLImHHsSpNnbweXVvamtsd2I=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('dsdmnTzzUvXoPwWDvsctFcPHqPLharXeNPkGvsOXRYBtuoIUQPKqTchdXVuYnV1')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('SltjtBMYhBddIVFEByBhiJDkJNnkxElLApjAaAiugtZRxWzijAIjIWdd2hzcGllaGRv')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ecPbAimYXBmqKbxxyQLnDdUiROsZWqrEGkmOycmfJFZJpyEwMzbLJfWTU9ERVIxMTQ1MTQ=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('VvDafTtFFVhVfQfOWcyynOswaMovZqXVIhQuCCcUwOuBWuUUsaSgKiOZXdxcXdlbW5iYm5tMTIz')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('NjFSjgVpKWrVDZfDayrZOIlliKcChRtdwNpRXWDZfgAQxnJhzOFVayzeXl5ZmNs')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('YROFBlcojRBGobifyqaRjCvImdGxcULHBGpahZRSLRyFyjMPhnfdGmpQWx0bWFuMTQ1Mg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('aHzGddWNlkBhZORDhCGLjTDMtvBPWmNFZvDhJrpxUKGFEPuXVttYORQT2xkZmlzaGZpc2hpbmc=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('IEZAlczNBCMVWSOtDoFvHyrVrqUIUUUJNjmZegVmuhsdtJjaJRdEquJbGlhbmthbmd4aW4=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('GdhxTSpcmyHVSeaSAsmlIkZkSYCrgJjkZGMQPXXrohBZpDAqAfqJFzCaGZodmhkaWlqYw==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('fTxgyganCIoTlwqiJcEyIOUoVbnVmDdQLthHIoMXFFCbEQtNSRghQIzd3d1aXQy')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('VspkrHICvbxeZVFCIqgyrSqfLwaLTWReHDEmBNWLWiMpooDjTYMiyyqbGl1MTIzNjU=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('cyejBdzzZmrLLBowISzCvSYmGGUVzZsncnALyRbyiNXzcDybaddgBqlcm9ibG94X1FBUW0=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('HwGilqoztlRUcfDpejvPKgBvVxzsBqEXMCPJuIymRjPTJwDBiwyUcuSeGlhb3dhbnJl')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('abADVdwwsPAoWtSaWDWrOxIIceqZKQScqRtBGOnxBtkeBIzymsnmYHScWVld3dydHR1dQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('rRakXGvawNFoZfEwqaDeDbqDgVDGoThtfSwHwyCstlMwGXZGeJigZDPZ2N2anh2aWNoanhq')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('WuoGklZhyrvdQqauReEsOcePdyrxNOlQGUNzdnBvuQVbESZFVadqjcBamh0eXUyMzM1NjY=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('gbAAsrfgerdmAMkBeDBoNCUTjFMAPLOFsRgHGFRxLIwjzExXnzvqaLYdmhzZWphbg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('kJwaHfWwgyiAMcWLjOkYztEDVAZGmRcFNnBDlMXEKfEVnwvndHLJPJPZ2dnZ2dnNDM5OW1w')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('JKMFmtutgwavnaMxviSPapOhJeEDQQKyYNkYIDjbQhuYEBKcGkiHfsPcXdlZXJ0YXNkaA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('GLmgRLjYHwwCDCiYSksVgEYewFETlfuIdkBURyzwjxpstUDHAWdsOCRMTIzNTY3ZmhnZg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('OUzOvxUyVADqHxqDhdLhMvLUHDzgEdNWwICtgttMhKoyUCkgyFOZNjnaGpjNTU1NQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('thZeUCRwcyLPFeEmGUnXPOLSPKCiTGldvpEaeRszZEjFYbnJACjmpOyUUVBRFpDMjMz')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('dVooQhxZjnxeQfEjuKfPjzmurgAIUPiBdTxyRzUCvtqGmrwMxQIOTxwU0JEWENOTUc=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('VYWuSVMpqekLODiDAKotbqIyNxQPoyWTcCdaVuNbPNaRixkphEeqLsHbXVyYW4xMjMzMjE=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('QMiCCFRmNdCPHDPNBypjuOLWdirOSXfDMPHlFuxtgtdYoTZTIlpelaRRmVuZ2tpdW4=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('SztgTsnoPULldukFTcMJJoIIBaKmVcSETxdsKDjOEExhADMOGTVIoYUYW56aHVvNDQ0')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('SMZxtKUnwcHjkWdFbUwAzhKvVnRBVFlXHoZiEkGTVpXtikeGYvjztwcbHN5MTMyMzE5')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('iMsjNFVRArOjeYNgnPxzhqhSqkNSIZoViPxaGuSjhpHNzoCNPOsUIzsd3VsaXVxbA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('LQHqwYEkrAadwkufOlvhKFEepkSYzaxvkyGAnJbyltIcKzQmxeBwcYdQ2FpWHVrdW5MaXR0bGVzdW5zcG8=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ZObiZVSSwHfjmPZPLnqdHYcrcrCXMbzWuhjfzFZEdAlEXlwNBJVtRRQTm15Z2lhbw==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('PbQFLMflmFvjIZDOrFmMEgWDGIcgUlGPqQRqKyZXQqLVOHcocUVnxNITjFfMTBt')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('hKcMSsfpdkoeaqlFmVZkaKNmTtIuxipmTxlDvlnWfHJYpgdstcunYpgeGlhb21pbmcwMw==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ozKWJDkLEvDGYTAoAaZOXcHAkolnWEUvnjWaWKEeVBGoXpsRualahaOMTE0NTE0VEVM')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('jeDIDuKAZkvVNVcpNJGZUOnhBgEgSUhdHTCcQlDajaFtDxSnkEhLvTcYW5kZWRpYTE=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('dMXNnzGBJRvFDewYJLMcaAHWwKViDPntXqqDZrGXYRKqZIXESbzkGniOTg2MzAwcXdl')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('aftKYGTCzZFBUkeWyYjsQHvXsqsTDgFzOQsTfSlznRCjrOXLCUAqyIieGtqc2Ji')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('HTcRIqncCakIxBNDFhObhJCslVSpUKDcPpvNGcULEmzlVeuEDIMGauScm9ibG94MTE0NTE0ag==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('yPbJPuQeqjVkYEamBntWZkXPuzdoFANtGDKJrmQDTZezYuEtCRClOIobGluXzg4OQ==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('sVbtxOMcIVogPZLUjyQWSJTCudAmROZZdGoEesiKRQwIBBYWWVtQTgreXVyZW5ndG0=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('AKwTZzpFdLVdwRAELInTSICGhfQUgoqJHWpgdCkGHbDbiubPotwsOXKcXc1MjAxMzE=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('HHpXJhSFsSANFzcFETcXsElGaHllVCAhFRDRPEBsKHlYZEGQaRQPAMcMTI1ODk2eg==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('ABUfBFqrRYPWjWBfQnLYCEJCKOWCtvRcDxAaYxNmyKDBNIAYmKRGjUPc290c2Rs')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('eKPPJDDQrMepLUhRDThAObFFrmBUDyaApopbOBglYsWMUJdjqNgLqqXemN2dWlkZGZmZ2doaGdnaA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('GLXUSiCvALqlXIWAXMDhYLmHXyuKViLVWeCdZYQyIvEIusJPLmwmqUVRGVtaWdvZG5iOA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('pdqHCWZUMVonEtoZhGLGJoTodtTdJZQiSHpdHBRRThNxMJdUZONIzBUc25oc2hpc25pMTI=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('FYEpeUKpUZTKEsbmQCAYiFgvviPaIRZABywKwSKfCCRrKCqvaDkFhPvQ05fU0NQTw==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('evKwcAMozkVLZHYzgkqcCLOxwZDscuWFDtecdZWcMoStFWimWLFyCIOcWFhd3J2c2dm')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('gIREbTQCVDkrHCaRqwJLEeEDuaaNqetCuQeIrTnLQwTCuLfQKxtCPLCbGhoMmV6YWE=')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('jIUNxXHQJUkoLGBmQWlqoQNjDPilrrKoxAgjUVYYpNxcbRnESTpeBSCY2hlZW1zQUNFVw==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('KsnBoonsxyTWmRqeBZuZCASFDTVCniPYsQzmRjpkYklclPiuFlrKTjQd2VpaHNqdWFoanNoaA==')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('dpXvZgZvFxextuqTrKVpuQpNoZQRZyokXZXJtaNfiPYtpZhDwpMlkKsbmJkZURY')then
+_G.whitelisted=true
+elseif a==kgPOAMkHydYqQxRK('GMrofFkRkRFEdlWGHKFklauizNSVtiZsOtbpDZCiLCdhhoAoNaOjsFbYWFhbGl6aGltaW5nMTIz')then
+_G.whitelisted=true
+end
+if _G.whitelisted==true then
+ if game.PlaceId == 286090429 then
+    loadstring(game:HttpGet(kgPOAMkHydYqQxRK('vpItZMThIgtWPvaihacdLnEpWtgHUKZJKyfmzJYpoEApAGdoBDJbwNWaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0VxTjkwd1ha')))()
+elseif game.PlaceId == 6839171747 then
+    loadstring(game:HttpGet(kgPOAMkHydYqQxRK('tlEssCSGoCTtygTGwImWFDznGrEYppbvyIUKREJClIQXCeeNbFKWzUSaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2x5eWFpbmkvbG9uL21haW4va3dvc2lqdw==')))()
+elseif game.PlaceId == 6516141723 then
+    loadstring(game:HttpGet(kgPOAMkHydYqQxRK('jBBuUUSqmjNcJKIcwJhxnztOKYitEdXHAtIPqNywGqOuQBaCYAVdztoaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2x5eWFpbmkvbG9uL21haW4va3dvc2lqdw==')))()
+else
+    loadstring(game:HttpGet(kgPOAMkHydYqQxRK('uouSFFJANYSciUHJNlpoZDANZDewvakvIgXprGFBRdBvXIOWzQkThDqaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2x5eWFpbmkvbG9uL21haW4vaW1saQ==')))()
+end
+    else
+ 
+game.Players.LocalPlayer:Kick(kgPOAMkHydYqQxRK('XATAHtTVIBhRGAVrQflTrAuJDNfXPqKubzjuROEYboTmAfTIjJTDvCn5L2g5LiN6K+a5a6e5piv5ZCn77yM5Lq65py6'))
+end    
