@@ -1,0 +1,1 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 	Title = "开发者";	Text = "龙脚本不定时免费，需要购买请找龙叔";	Icon = ""})
